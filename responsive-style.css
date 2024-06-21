@@ -1,0 +1,25 @@
+@media screen and(max-width:600px)
+{
+    .part1,.part2,.part3,.part4
+{
+    flex-direction: column;
+    height: 1400px;
+}
+.logo
+{
+    width: 100px;
+    
+}
+header
+{
+    padding:0px 50px;
+    justify-content: safe;
+    flex-direction: column;
+}
+.buttons
+{
+    padding: 0 15px 0 10px;
+
+}
+
+}

@@ -1,0 +1,217 @@
+body,html{
+    margin: 0;
+    padding:0;
+    
+    
+}
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    z-index: 1;
+    
+}
+.tag1
+{
+    font-family: Freeman;
+    font-size: 50px;
+    color:white
+    
+    
+}
+.tag2
+{
+    font-size: 20px;
+    font-family: Roboto;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    }
+
+     
+   .fade-color
+   {
+    
+   
+    
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(black 0.2%,transparent 40%,black 85%);
+  
+} 
+
+.main
+{
+    position: relative;
+   width:100%;
+   height:1000px;
+    background-image: url(image-1.jpg);
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+   
+
+    
+   
+}
+
+header
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    
+    padding: 0px 200px;
+    height: 50px;
+    gap: 210px;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    
+}
+.buttons
+{
+display: flex;
+align-items: center;
+gap: 20px;
+
+padding: 0 30px 0 20px;
+
+}
+.logo
+{
+    height: 90%;
+    margin-top: 20px;
+    width: 200px;
+   
+    
+       
+}
+.middle
+{
+   position: absolute;
+    padding:20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 1;
+    top: 20%;
+    left: 22%;
+    letter-spacing: 3px;
+    
+}
+.middle p{
+    color: white;
+    font-weight: 700;
+    
+}
+
+.language,.sign-in
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    height: 35px;
+  
+}
+button
+{
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+}
+.language{
+    border: 1px solid white;
+    background-color:transparent;
+    color: white;
+    
+      
+}
+.sign-in
+{
+background-color: red;
+border: 2px solid red;
+margin: 2px;
+}
+#input
+{
+    height: 40px;
+    width: 300px;
+    border-radius: 3px;
+    background-color: black;
+    opacity:0.6 ;
+    border: 1px solid white;
+}
+
+::placeholder
+{
+    color: white;
+    font-size:  15px;
+    padding-left: 10px;
+    
+    
+}
+#email-section
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.get-started
+{
+    height: 60px;
+    width:150px;
+    font-size: 20px;
+    background-color: red;
+}
+.sign-in,.get-started:hover
+{
+    background-color: rgb(184, 3, 3);
+}
+
+    
+.part1,.part2,.part3,.part4
+{
+    
+ width:100%;
+    background-color:rgb(0, 0, 0) ;
+    border-top: 5px solid grey;
+    padding:0px 200px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: row;
+    height: 800px;
+    color: white;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+    
+
+    
+}
+
+@media only screen and (max-width:600px)
+{
+   
+}
